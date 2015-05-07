@@ -1,0 +1,10 @@
+# Domain-Specific Languages Fall 2014
+**Homework 0**  by *Zhenfei Nie*
+
+# Report
+- Input:
+    `import Data.Char`
+    `sum $ map (\x -> ord x) "Nie"`
+
+- Output:    
+    `284`

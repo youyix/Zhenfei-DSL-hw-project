@@ -1,0 +1,36 @@
+/* Define a conf */
+Conf test {
+  name: "test",
+  path: "./hello",
+  schema: {
+    vertex: ("name", STRING), ("age", INT64)
+    edge: ("relation", STRING)
+  }
+}
+
+/* Define a graph */
+Graph graph using test {
+    vertex: {
+        5: "ghouan" 23LL,
+        6: "alice" 43LL
+    }
+    edge: {
+        5 -> 6: 3.5 "father"
+    }
+}
+
+/* Define an edge query */
+Select edge from graph(3-110.2) {
+  y < 3,
+  {k<=9.9 && (a==3 || q!=1)}*,
+  {age > 33}+
+}
+
+
+/* Define a vertex query
+
+Select vertex from graph(all) {
+ !(k >= 3)  && exists(b) || a==3
+}
+
+*/

@@ -1,0 +1,6 @@
+DSL Homework 5 
+--------------
+Zhenfei Nie
+
+
+SEQUEL is a programming language which focus on database queries. It was born to solve the problem that the current database querying language are hard to learn and use by normal users. Even for computer scientists, it is also not easy to develop and maintain program written by those mathematical style programming language. So, it's goal is to make it very easy to learn and use for normal user by using english keywords rather than mathematical notations of first predicate calculus. Furthermore, it also makes program more readable and easy to maintain for developer. However, it's join operations between different tables make cause performance problem when having a huge amount of data.
